@@ -1,0 +1,48 @@
+header {
+    /* border: 2px solid black; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container {
+    max-width: 1180px;
+    width: 95%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.myflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 48px;
+    color: hotpink;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+li a {
+    font-size: 32px;
+    color: rgb(56, 83, 9);
+}
+
+.fa-bars {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .fa-bars {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+}
